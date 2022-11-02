@@ -12,6 +12,8 @@ Conditions
 
 Link to the exclusion condtion with instruction 1: https://la-lavadora.github.io/BackUp_Rep4//index.html?c=1&p=999
 
+Link to the exclusion condtion with instruction 1: https://la-lavadora.github.io/BackUp_Rep4//index_noLikes.html?c=1&p=999
+
 Link to the inclusion condtion with instruction 1: https://la-lavadora.github.io/BackUp_Rep4//index.html?c=2&p=999
 
 Link to the exclusion condtion with instruction 2: https://la-lavadora.github.io/BackUp_Rep4//index.html?c=5&p=999
