@@ -1,0 +1,39 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/others/anca.png",
+        "username": "Julia",
+        "text": "Hey, mein Name ist Julia und ich bin 21 Jahre alt. Ich bin seit meinem 2. Semester im Social Media Team. Ich bin sehr gerne kreativ mit Film und Foto, daher ist das Social Media Team der optimale Platz um mich zu entfalten.",
+        "likes": [45000, 50000, 110000, 150000] //4
+      },
+      {
+        "avatar": "avatars/others/ky.png",
+        "username": "Felix",
+        "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und bin neu im Social Media Team. Da ich in einem grossen Wirtschaftsunternehmen arbeite, kann ich gut Verbindungen schaffen, wenn wir Kampagnen mit grossen Firmen zusammen gestalten.",
+        "likes": [12000, 14000,15000,35000] //9
+      },
+      {
+        "avatar": "avatars/others/sarah.png",
+        "username": "Sarah",
+        "text": "Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag das Social Media Team, weil ich wirklich etwas bewirken kann. Ich freue mich auf das nächste Projekt und die Diskussion um das neue Uni Logo.",
+        "likes": [10000, 12000, 40000, 80000] //5
+      },
+      {
+        "avatar": "avatars/others/jessica.png",
+        "username": "Jessica",
+        "text": "Mein Name ist Jessica und ich bin 22 Jahre alt. Ich studiere Psycholgoie und arbeite nebenbei als HiWi. Mit Marketing und Werbung kann ich mich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.",
+        "likes": [40000, 450000, 90000, 100000] //6
+      },
+    {
+        "avatar": "avatars/others/dan.png",
+        "username": "Nicola",
+        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Ich studiere Sprachwissenschaften und habe bereits ein Studium an der Kunsthochschule absolviert. Ich mag die Kommunikation und die Kreaktivität in unserer Gruppe sehr.",
+        "likes": [20000, 25000, 95000] //3
+        
+      },
+
+    ]
+  };
