@@ -1,0 +1,237 @@
+<html lang="en"><!DOCTYPE html>
+
+ <!-- 
+/* 
+  
+This document contains all instructions which appear in the paradigm, along with some basic functionality. You can change all text by following the instructions below. 
+
+If you don't have experience with programming, it is important that you alter only the plain text, as indicated in the instructions, and leave any functional elements intact.
+*/ 
+--> 
+
+<meta charset="utf-8">
+<title>Intro</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Stylesheets -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<!-- For IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+  </script>
+<![endif]-->
+
+<!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+<script src="shortcut.js"></script>
+<script src="main.js"></script>
+<script type="text/javascript" src="Profiles_test.json"></script>
+</head>
+
+<body oncontextmenu="return false;">
+<div class="container">
+
+
+
+<div id="intro" style="display:none;" class="instr">
+ <!-- 
+/* 
+  
+**Intro**
+---------
+You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
+
+*/ 
+--> 
+	<h3>Herzlich willkommen!   </h3>
+	  
+  Wir bitten Sie zunächst, sich einen Nicknamen und einen Avatar auszusuchen <br>
+  und anschliessend eine kurze Beschreibung über sich selbst zu schreiben.  
+  <br><br>
+  Danach verbringen Sie 2 Minuten in einer Online-Umgebung. <br>
+  Währenddessen haben Sie Zeit, die Beschreibungen anderer Personen zu lesen und<br>
+  auf diese zu reagieren.
+  <br><br>
+
+
+  
+ <br><br>
+  <button type="submit" id="submit_intro">Weiter</button>
+</div>
+
+
+
+<div id="name" style="display:none;" class="instr">
+<!-- 
+/* 
+  
+**Username**
+---------
+You can edit the instructions text for entering usernames below.
+
+*/ 
+-->
+
+  <h3>Bitte geben Sie Ihren Namen ein.</h3>
+  Sie können Ihren Vornamen, Ihre Initialen oder auch einen Nicknamen benutzen.<br><br>
+	
+	<input type="text" id="username"  autocomplete="off" /><br>	<br>
+	<button type="submit"  id="submit_username">Bestätigen</button>
+</div>
+
+
+
+<div id="avatar" style="display:none;">	
+<!-- 
+/* 
+  
+**Avatar choice**
+---------
+You can edit the instructions text. The text "Your choice of avatar will not be recorded or analyzed" depends on whether you record the choice of avatar.
+
+*/ 
+-->	<h3>Bitte wählen Sie einen Avatar.</h3>
+  Der Avatar repräsentiert Sie in der Online-Umgebung. Es gibt jedoch keine Verbindung zwischen dem Avatar und Ihren Antworten. Die Wahl des Avatars wird nicht erfasst oder analysiert.<br>
+	<br><br>
+
+	<div class="avatars"></div>
+	<br><button type="submit"  id="submit_avatar">Bestätigen</button>
+	<br><br>
+</div>	
+
+
+<div id="text" style="display:none;" class="instr">	
+<!-- 
+/* 
+  
+**Description entry**
+---------
+You can edit the instructions text. 
+
+*/ 
+-->	<h3>2. November, 15:45.</h3>
+  
+Bitte verfassen Sie einen kurzen Text, in dem Sie sich kurz vorstellen. Der Inhalt des Textes kann frei erfunden sein und muss nicht auf wahren Angaben beruhen.
+	<textarea id="description" autocomplete="off" /></textarea><br>
+	<span id="count">Zeichen übrig: 400</span><br><br>
+	<button type="submit" id="submit_text">Bestätigen</button>
+</div>	
+
+
+
+<div id="fb_intro" style="display:none;" class="instr">
+<!-- 
+/* 
+  
+**Task instructions**
+---------
+You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
+
+*/ 
+-->  <h3>Treffen Sie die anderen.</h3>
+  Sobald die Verbindung aufgebaut wurde, werden Sie die Texte der anderen Personen in Ihrer Gruppe sehen. <br> Sie können diese lesen und darauf reagieren, indem Sie auf "Like" drücken.
+  Bitte versuchen Sie, sich einen Eindruck von den anderen zu verschaffen, auch wenn Ihre Möglichkeiten miteinander zu interagieren begrenzt sind. Versuchen Sie sich die Personen im realen Leben vorzustellen. Wie könnten sie aussehen, wie klingt ihre Stimme, wie ist ihre Art, würden Sie sich miteinander verstehen? <br>
+
+  <br>Das Treffen dauert 2 Minuten und es ist sehr wichtig, dass Sie aufmerksam dabei sind. <br> Bitte verlassen Sie die Seite nicht und erledigen Sie nebenher keine anderen Aufgaben. Im weiteren Verlauf der Studie können Fragen über die anderen Personen folgen.<br>
+  <br><b>Wenn Sie die Instruktionen verstanden haben, können Sie mit Anmelden fortfahren.</b><br>
+  <br>
+  <button type="submit"  id="submit_fb_intro">Anmelden</button>
+</div>
+
+
+
+<div id="fb_login" style="display:none;" class="instr">
+  <h3>Verbindung wird hergestellt.</h3>
+  Bitte warten Sie, während die Online-Umgebung aufgebaut wird.<br><br>
+
+  <img class="load" src='ajax-loader.gif' id="loader">
+  <div id="msg_all_done" style="display:none;">
+  <br>
+  	<b>Die Online-Umgebung ist nun aufgebaut. Sie können nun auf Weiter klicken.</b><br><br>
+  	<button type="submit"  id="submit_fb_login">Weiter</button>
+  </div>
+</div>
+
+
+<!-- 
+/* 
+  
+**In-task instructions and timer**
+---------
+You can edit the instructions text. 
+
+*/ 
+-->
+<div id="task" style="display:none;">
+	<div id="countdown"><span class="secs" style="display: none;"></span>Sie können auf "Like" klicken, wenn Ihnen die Beschreibung von jemandem gefällt.<br><br>Zeit übrig:<br><span id="timer" class="cntr label label-info"></span>
+	<br>
+	<button type="submit" id='final-continue' style="display:none;">Weiter</button>	
+	</div>
+</div>
+
+
+<script type="template/text" id="usertmp">
+  {{#posts}}
+    
+    <div class="entry">
+    <div class="tophalf">
+
+    	<img src="{{avatar}}" class="avatar">
+    	<h3>{{username}}</h3>
+
+    	<div class="main">
+    		<p>{{text}}</p>
+    	</div>
+
+    	<br style="clear:both;">
+
+    </div>	
+
+    <div class="bottomhalf">
+    	Gefällt mir <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span>
+    </div>
+    </div>
+
+  {{/posts}}  
+</script>
+
+<script type="template/text" id="otherstmp">
+  {{#posts}}
+    <div class="entry">
+    <div class="tophalf">
+
+    	<img src="{{avatar}}" class="avatar">
+        <h3>{{username}}</h3>
+    	
+    	<div class="main">
+    		
+    		<p>{{text}}</p>
+    	</div>
+
+    	<br style="clear:both;">
+
+    </div>
+
+    <div class="bottomhalf">
+      Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
+      <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
+    </div>
+
+    </div>
+  {{/posts}}  
+</script>
+
+
+
+</body>
+</html>
