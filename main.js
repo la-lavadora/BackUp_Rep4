@@ -242,7 +242,7 @@ $(function() {
 	  $("#task").append(html);
 	  
     // Add other boxes to slide
-    if(condition < 4)  {
+    if(condition < 5)  {
 	  var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
 	  $("#task").append(html);
   } else {
@@ -252,7 +252,7 @@ $(function() {
  
     // Randomize order of other players boxes
     function reorder() {
-      if(condition < 4)  {
+      if(condition < 5)  {
        var grp = $("#others").children();
      } else {
       var grp = $("#othersA").children();
