@@ -43,6 +43,9 @@ $(function() {
     
     // In condition 3, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
     settings.condition_3_likes = [9999999, 9999999,9999999,9999999,9999999,9999999,9999999,9999999,9999999]; 
+	  
+	      // In condition 4, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
+    settings.condition_4_likes = [9999999, 9999999,9999999,9999999,9999999,9999999,9999999,9999999,9999999]; 
 
 	// **Others' likes**     
 	// To keep the total distribution of "likes" constant across conditions, The "likes" received by one group member can be adjusted according to the participant's. By default, the other group member receives 9 "likes" in the participant-ostracism condition, 5 in the participant-inclusion condtion, and 1 in the participant-overinclusion condtion.
