@@ -10,9 +10,9 @@ Wolf, W., Levordashka, A., Ruff, J. R., Kraaijeveld, S., Lueckmann, J.-M., & Wil
 Conditions
 ======================
 
-Link to the exclusion condition (with Likes): https://la-lavadora.github.io/BackUp_Rep4//index.html?c=1&p=999
+Link to the exclusion condition (with Likes): https://la-lavadora.github.io/SocialMediaTeam//index.html?c=1&p=999
 
-Link to the control condition (without likes): https://la-lavadora.github.io/BackUp_Rep4//index_noLikes.html?c=1&p=999
+Link to the control condition (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=1&p=999
 
 
 
