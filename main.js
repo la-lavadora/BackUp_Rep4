@@ -347,8 +347,8 @@ $(function() {
 
   // Get URL parameters to set condition number and participant number
   function get_params() {
-    // condition number must be 1, 2, or 3
-    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 6) {
+    // condition number must be 1, 2, or 3, or 4
+    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 5) {
       window.condition = parseInt(window.QueryString.c);
     } else {
       window.condition = 1; // condition defaults to 1
