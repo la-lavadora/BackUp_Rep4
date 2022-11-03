@@ -12,7 +12,7 @@ Conditions
 
 Link to the exclusion condition (with Likes): https://la-lavadora.github.io/SocialMediaTeam//index.html?c=1&p=999
 
-Link to the control condition (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=1&p=999
+Link to the control condition (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=2&p=999
 
 
 
