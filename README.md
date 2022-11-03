@@ -10,9 +10,11 @@ Wolf, W., Levordashka, A., Ruff, J. R., Kraaijeveld, S., Lueckmann, J.-M., & Wil
 Conditions
 ======================
 
-Link to the exclusion condition (with Likes): https://la-lavadora.github.io/SocialMediaTeam//index.html?c=1&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
+Link to the exclusion condition 1 (with Likes): https://la-lavadora.github.io/SocialMediaTeam//index.html?c=1&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
 
-Link to the control condition (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=2&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
+Link to the exclusion condition 3 (with Likes): https://la-lavadora.github.io/SocialMediaTeam//index.html?c=3&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
 
+Link to the control condition 2 (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=2&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
 
+Link to the control condition 4 (without likes): https://la-lavadora.github.io/SocialMediaTeam//index_noLikes.html?c=4&p=${e://Field/ID}&redirect=https://baselpsychology.eu.qualtrics.com/jfe/form/SV_b3o3Za1zSlMmtxk
 
