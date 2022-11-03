@@ -52,6 +52,7 @@ $(function() {
 	 settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,9999999,9999999,9999999,9999999]; // 9
 	 settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
 	 settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
+	 settings.condition_4_adjusted_likes = [12000, 9999999]; //1	
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
