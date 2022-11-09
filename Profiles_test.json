@@ -7,13 +7,13 @@ window.others = {
         "avatar": "avatars/others/anca.png",
         "username": "Julia",
         "text": "Hey, mein Name ist Julia und ich bin 21 Jahre alt. Ich bin seit meinem 2. Semester im Social Media Team. Ich bin sehr gerne kreativ mit Film und Foto, daher ist das Social Media Team der optimale Platz um mich zu entfalten.",
-        "likes": [45000, 50000, 110000, 150000] //4
+        "likes": [45000, 50000, 100000, 9999999] //4
       },
       {
         "avatar": "avatars/others/ky.png",
         "username": "Felix",
         "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und bin neu im Social Media Team. Da ich in einem grossen Wirtschaftsunternehmen arbeite, kann ich gut Verbindungen schaffen, wenn wir Kampagnen mit grossen Firmen zusammen gestalten.",
-        "likes": [12000, 14000,15000,35000] //9
+        "likes": [12000, 14000,15000,9999999] //9
       },
       {
         "avatar": "avatars/others/sarah.png",
@@ -25,7 +25,7 @@ window.others = {
         "avatar": "avatars/others/jessica.png",
         "username": "Nicola",
         "text": "Mein Name ist Nicola und ich bin 22 Jahre alt. Ich studiere Psychologie und arbeite nebenbei als HiWi. Mit Marketing und Werbung kann ich mich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.",
-        "likes": [40000, 450000, 90000, 100000] //6
+        "likes": [40000, 48000, 60000, 100000] //6
       },
     {
         "avatar": "avatars/others/dan.png",
