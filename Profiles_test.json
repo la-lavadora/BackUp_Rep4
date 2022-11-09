@@ -24,7 +24,7 @@ window.others = {
       {
         "avatar": "avatars/others/jessica.png",
         "username": "Jessica",
-        "text": "Mein Name ist Jessica und ich bin 22 Jahre alt. Ich studiere Psycholgoie und arbeite nebenbei als HiWi. Mit Marketing und Werbung kann ich mich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.",
+        "text": "Mein Name ist Jessica und ich bin 22 Jahre alt. Ich studiere Psychologie und arbeite nebenbei als HiWi. Mit Marketing und Werbung kann ich mich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.",
         "likes": [40000, 450000, 90000, 100000] //6
       },
     {
