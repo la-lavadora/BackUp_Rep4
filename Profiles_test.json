@@ -23,13 +23,13 @@ window.others = {
       },
       {
         "avatar": "avatars/others/jessica.png",
-        "username": "Jessica",
+        "username": "Nicola",
         "text": "Mein Name ist Jessica und ich bin 22 Jahre alt. Ich studiere Psychologie und arbeite nebenbei als HiWi. Mit Marketing und Werbung kann ich mich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.",
         "likes": [40000, 450000, 90000, 100000] //6
       },
     {
         "avatar": "avatars/others/dan.png",
-        "username": "Nicola",
+        "username": "Max",
         "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Ich studiere Sprachwissenschaften und habe bereits ein Studium an der Kunsthochschule absolviert. Ich mag die Kommunikation und die Kreaktivität in unserer Gruppe sehr.",
         "likes": [20000, 25000, 95000] //3
         
