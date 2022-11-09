@@ -13,7 +13,7 @@ window.others = {
         "avatar": "avatars/others/ky.png",
         "username": "Felix",
         "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und bin neu im Social Media Team. Da ich in einem grossen Wirtschaftsunternehmen arbeite, kann ich gut Verbindungen schaffen, wenn wir Kampagnen mit grossen Firmen zusammen gestalten.",
-        "likes": [12000, 14000,15000,9999999] //9
+        "likes": [12000, 14000,15000] //9
       },
       {
         "avatar": "avatars/others/sarah.png",
